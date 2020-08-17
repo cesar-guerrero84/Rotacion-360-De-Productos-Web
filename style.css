@@ -1,0 +1,43 @@
+h2 ,h3{
+    font-family: 'Anton', sans-serif;
+    color: #f48c06;
+}
+.product_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product{
+    width: 500px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.product p{
+    width: 500px;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    color: #14213d;
+}
+.product input{
+    width: 500px;
+}
+.product_info{
+    justify-content: center;
+    align-content: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    color: #14213d;
+}
+footer a:hover{
+    color: #f48c06;
+}

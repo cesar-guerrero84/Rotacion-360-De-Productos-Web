@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotacion De Producto 360</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Teko:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="product-container">
+        <div class="product">
+            <canvas id="canvas" width="1000" height="666"></canvas><!-- usamos el canvas para no tener que obligar al navegador a cargar la imagen ya que seran varias para crear el efecto 3d y esto lo haria lento por ende la cargaremos desde js asi la carga sera en tiempo real gracias al canvas-->
+            <div class="product_info">
+                <h2>Nike Air Force 1 Low Travis Scott Cactus Jack</h2>
+                <p>travis Scott y Nike agregan un nuevo diseño <br>Air Force 1 Low Travis Scott Cactus Jack <br><br>Después de un año de dominio mundial de las zapatillas <br> Este nuevo diseño presenta una cubierta de encaje desmontable <br> nunca antes vista que se cierra con una pesada cremallera de latón.<br><br>
+                    parte superior de camuflaje, pana, lona de pato, franela, cuero, gamuza y lana. <br>Insignias inconfundibles de Cactus Jack se colocan a lo largo de la silueta.<br><br> Una entresuela de vela y una suela de goma de mascar completan el diseño.<br>  <br>Estas zapatillas se lanzaron en noviembre de 2019 y se vendieron al por menor por $ 160.
+                </p>
+                <h3>Mueve El Slider Para Visualizar Tu Sneaker</h3>
+                <input type="range" min="1" max="36" step="1" value="1" id="slider"><!-- el input de tipo de range es un slider, el min y max define desde y hasta donde cuenta el slider el step en que pasos si de uno en uno o incluso 1.5 etc por defecto viene any que es cualquiera , el value define el valor de donde empieza el slider -->
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h3>Creado Por Cesar Guerrero
+            <a class="links" href=https://www.linkedin.com/in/cesar-guerrero-6298a91b2/ target="blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a class="links" href=https://github.com/cesar-guerrero84 target="blank">
+                <i class="fab fa-github"> </i>
+            </a>
+        </h3>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
